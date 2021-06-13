@@ -8,5 +8,10 @@
       "directory": "./api",
       "changeProcessCWD": true
     }
-  ]
+  ],
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#1B2F44",
+    "titleBar.activeBackground": "#25425F",
+    "titleBar.activeForeground": "#F8FAFC"
+  }
 }

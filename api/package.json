@@ -1,8 +1,7 @@
 {
-  "name": "jira_api",
+  "name": "react-jira-clone",
   "version": "1.0.0",
-  "author": "Ivor Reic",
-  "license": "MIT",
+  "author": "Adrian Sudbury",
   "scripts": {
     "start": "nodemon --exec ts-node --files src/index.ts",
     "start:test": "cross-env NODE_ENV='test' DB_DATABASE='jira_test' npm start",

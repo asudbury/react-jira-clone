@@ -1,8 +1,7 @@
 {
-  "name": "jira_client",
+  "name": "react-jira-clone",
   "version": "1.0.0",
-  "author": "Ivor Reic",
-  "license": "MIT",
+  "author": "Adrian Sudbury",
   "scripts": {
     "start": "webpack-dev-server",
     "start:production": "pm2 start --name 'jira_client' server.js",
