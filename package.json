@@ -1,5 +1,6 @@
 {
   "name": "react-jira-clone",
+  "homepage": "http://asudbury.github.io/react-jira-clone",
   "version": "1.0.0",
   "author": "Adrian Sudbury",
   "scripts": {
