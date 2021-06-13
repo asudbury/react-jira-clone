@@ -7,7 +7,7 @@
     "start:production": "pm2 start --name 'jira_client' server.js",
     "test:jest": "jest",
     "test:cypress": "node_modules/.bin/cypress open",
-    "build": "rm -rf build && webpack --config webpack.config.production.js --progress",
+    "build": "webpack --config webpack.config.production.js --progress",
     "pre-commit": "lint-staged"
   },
   "devDependencies": {
