@@ -17,8 +17,8 @@ jobs:
         run: |
           npm install --save-dev webpack
           npm install --save-dev webpack-dev-server
-          npm install webpack-cli -g 
-          npm install webpack-command -g 
+          npm install --save-dev webpack-cli 
+          npm install --save-dev webpack-command
           npm install
           npm run build-client
 
