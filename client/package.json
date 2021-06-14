@@ -9,7 +9,6 @@
     "test:jest": "jest",
     "test:cypress": "node_modules/.bin/cypress open",
     "build": "webpack --config webpack.config.production.js --progress",
-    "pre-commit": "lint-staged",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
@@ -72,12 +71,5 @@
     "regenerator-runtime": "^0.13.3",
     "styled-components": "^4.4.1",
     "sweet-pubsub": "^1.1.2"
-  },
-  "lint-staged": {
-    "*.{js,jsx}": [
-      "eslint --fix",
-      "prettier --write",
-      "git add"
-    ]
   }
 }

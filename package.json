@@ -4,7 +4,6 @@
   "version": "1.0.0",
   "author": "Adrian Sudbury",
   "scripts": {
-    "pre-commit": "cd api && npm run pre-commit && cd ../client && npm run pre-commit",
     "install-dependencies": "npm install && cd api && npm install && cd ../client && npm install",
     "build": "cd api && npm run build && cd ../client && npm run build",
     "build-client": "cd client && npm run build",
@@ -12,11 +11,6 @@
   },
   "devDependencies": {
     "husky": "^4.0.0-beta.5"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run pre-commit"
-    }
   },
   "dependencies": {}
 }
