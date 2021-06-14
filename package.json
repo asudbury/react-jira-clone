@@ -10,7 +10,11 @@
     "start:production": "cd api && npm run start:production && cd ../client && npm run start:production"
   },
   "devDependencies": {
-    "husky": "^4.0.0-beta.5"
+    "husky": "^4.0.0-beta.5",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-command": "^0.5.1",
+    "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {}
 }
