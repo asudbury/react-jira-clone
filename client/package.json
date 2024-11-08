@@ -51,7 +51,7 @@
     "color": "^3.1.2",
     "compression": "^1.7.4",
     "core-js": "^3.4.7",
-    "express": "^4.17.1",
+    "express": "^4.21.1",
     "express-history-api-fallback": "^2.2.1",
     "formik": "^2.1.1",
     "history": "^4.10.1",
