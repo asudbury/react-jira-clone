@@ -17,7 +17,7 @@
     "jsonwebtoken": "^9.0.0",
     "lodash": "^4.17.21",
     "module-alias": "^2.2.2",
-    "pg": "^7.14.0",
+    "pg": "^8.18.0",
     "reflect-metadata": "^0.1.13",
     "striptags": "^3.1.1",
     "typeorm": "^0.3.14"
